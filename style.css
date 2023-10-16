@@ -1,0 +1,126 @@
+ @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+.g-2{
+  gap: 20px;
+}
+
+h5.css {
+  color: white;
+  background-color: #222;
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 4px 30px 4px 10px;
+  border-radius: 4px;
+  border-bottom-right-radius: 0;
+  position: relative;
+}
+
+h5.css::before {
+  content: '';
+  width: 400px;
+  height: 1px;
+  background-color: #222;
+  position: absolute;
+  top: calc(100% - 1px);
+  left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a:active {
+  color: #ff2200;
+}
+
+.sidebar-custom li {
+  margin-bottom: 6px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.sidebar-custom li a{
+  font-size:15px;
+}
+
+.sidebar-custom li .fas {
+  margin-right: 6px;
+}
+
+.sidebar-custom li.active {
+  background-color: #eee;
+}
+
+.dn-form-container {
+  margin-top: 40px;
+  padding: 35px;
+  -webkit-box-shadow: 0 0 20px #ddd;
+          box-shadow: 0 0 20px #ddd;
+}
+
+.dn-form-container .top {
+  margin-bottom: 30px;
+}
+
+.form-label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.login {
+  width: 350px;
+  max-width: 400px;
+  position: relative;
+}
+.tabs_btn.active{
+    background-color:var(--bs-primary);
+}
+.tabs_btn{
+    background-color:var(--bs-secondary);
+    color:#fff;
+    border:none;
+}
+
+.tabs_table.active{
+    display:block;
+}
+.tabs_table{
+    display:none
+}
+.login .profile {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  inset: 0;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=style.css.map */
